@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saldo TIM pré-pago</string>
+    <string name="titulo">Saldo TIM pré-pago</string>
+    <string name="error_ussd_msg">Ocorreu um erro ao chamar o serviço da Operadora, verifique o sinal</string>
+    <string name="copyright">A TIM e o logotipo é marca registrada da Tim Brasil Serviços e Participações S/A</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="versao">release 1.4</string>
+    <string name="creditos">Criado por </string>
+    <string name="comments">Privacy Policy</string>
+    <string name="nada"> </string>
+</resources>

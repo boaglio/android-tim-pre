@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="horizontal|vertical"
+    android:id="@+id/tabela_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:gravity="center_vertical|center_horizontal" 
+    android:layout_gravity="center_vertical|center_horizontal|center"      
+    android:stretchColumns="1">
+    
+    <TableRow >
+        
+     <ImageButton
+        android:id="@+id/btnSaldo"
+        android:gravity="center_vertical|center_horizontal" 
+        android:layout_gravity="center_vertical|center_horizontal|center"  
+        android:contentDescription="@string/titulo"
+        android:src="@drawable/ic_launcher" />
+   
+     </TableRow>
+
+    <TableRow   >
+
+     <TextView
+        android:id="@+id/texto"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:textColor="@color/preto"
+        android:text="" />
+    </TableRow>
+    
+    <TableRow>
+        
+     <ImageButton
+         android:id="@+id/btnSair"
+         android:layout_width="100dp" 
+         android:contentDescription="@string/sair"
+         android:src="@drawable/exit" />
+        
+    </TableRow>
+
+  </TableLayout>
